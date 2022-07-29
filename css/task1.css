@@ -1,0 +1,25 @@
+#logo {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#dish {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+ 
+}
+
+#dish a {
+  text-align: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  text-decoration: none;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

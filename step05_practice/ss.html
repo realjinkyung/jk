@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      body {
+          font-size: 2rem;
+          text-align: center;
+      }
+      .container {
+          height: 100vh;
+          overflow: auto;
+          scroll-snap-type: y mandatory;
+      }
+
+      .area {
+          height: 100vh;
+          
+      }
+
+      .area:nth-child(2n-1) {
+          background: #94B49F;
+      }
+
+      .area:nth-child(2n) {
+          background: #FCF8E8;
+      }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="area">
+    <h1 class="title">Skills</h1>
+    <p>Study Lectures</p>
+    </section>
+    <section class="area">
+    <h1 class="title">HTML</h1>
+    <p>markup language</p>
+    </section>
+    <section class="area">
+    <h1 class="title">CSS</h1>
+    <p>style sheet</p>
+    </section>
+  </div>
+</body>
+</html>
